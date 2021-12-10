@@ -13,8 +13,7 @@ you were born.
 **Version1.0.0**
 
 ---
-![APM](https://img.shields.io/apm/l/MIT)
-![GitHub](https://img.shields.io/github/license/nicholas/https://github.com/barkotenicholas/birthday.git?style=flat-square)
+![APM](https://img.shields.io/apm/l/vim-mode)
 ---
 ## Authors
 - Nicholas Barkote <nicholas.kebut@student.moringaschool.com>
