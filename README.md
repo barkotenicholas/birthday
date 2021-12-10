@@ -5,12 +5,13 @@ you were born.
 ---
 # preview
 
-![alt text]('./images/one.png')
-
-![alt text]('./images/two.png')
+![alt text](./images/one.png)
+---
+![alt text](./images/two.png)
 
 ---
 **Version1.0.0**
+
 ![GitHub](https://img.shields.io/github/license/nicholas/https://github.com/barkotenicholas/birthday.git)
 ---
 ## Authors
