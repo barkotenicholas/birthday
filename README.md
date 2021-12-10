@@ -5,9 +5,9 @@ you were born.
 ---
 # preview
 
-![alt text]('./../images/one.png')
+![alt text]('./images/one.png')
 
-![alt text]('./../images/two.png')
+![alt text]('./images/two.png')
 
 ---
 **Version1.0.0**
@@ -35,7 +35,8 @@ you were born.
 - HTML
 - CSS
 - js
-- 
+  
+
  ## Live Link
 
 
