@@ -1,27 +1,27 @@
-body{
+/* body css*/
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
 }
 
 /* Title head section*/
 
-.header-title{
+.header-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
 }
+
 .header-title p {
-    width: 60%;    
+    width: 60%;
     text-align: center;
 }
 
 /* generator section */
 
-.generator{
 
-}
-form{
+form {
     border: 1px solid black;
     border-radius: .5rem;
     padding: 2rem;
@@ -29,10 +29,10 @@ form{
     margin: 2rem auto;
     display: block;
     line-height: 2rem;
-    box-shadow: 2px 2px rgb(202, 202, 202 ,.5);
+    box-shadow: 2px 2px rgb(202, 202, 202, .5);
 }
 
-input[type=submit]{
+input[type=submit] {
     background-color: blue;
     border: none;
     padding: .5rem;
@@ -41,30 +41,38 @@ input[type=submit]{
     border-radius: 5px;
 }
 
-form>label{
+form>label {
     display: block;
 }
 
-i.successgender,i.successemail{
+i.successgender,
+i.successemail {
     color: yellowgreen;
 }
-i.failuregender,i.failureemail{
+
+i.failuregender,
+i.failureemail {
     color: red;
 }
-.invisible{
+
+.invisible {
     visibility: hidden;
 }
-.visible{
+
+.visible {
     visibility: visible;
 }
-#answer{
+
+/* display out put section*/
+#answer {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-#answer p{
+
+#answer p {
     font-weight: 700;
     font-size: 2rem;
 }

@@ -49,6 +49,7 @@ form.addEventListener('submit', (e) => {
     }
 })
 
+// validate function 
 function validate() {
 
     defaultdate = date.defaultValue;
@@ -85,6 +86,7 @@ function validate() {
 
 }
 
+// birthday error
 function setError(message, input) {
 
     const formControl = input.parentElement;
@@ -93,7 +95,7 @@ function setError(message, input) {
     small.innerHTML = message
     ierror.classList.remove("invisible")
 }
-
+// email success
 function success(message, input) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small.errormsg');
@@ -102,6 +104,7 @@ function success(message, input) {
     ierror.classList.remove("invisible")
 }
 
+// gender error
 function setGenderError(message, input) {
 
     const formControl = input.parentElement;
@@ -112,6 +115,7 @@ function setGenderError(message, input) {
 
 }
 
+//gender success
 function setGenderSuccess(message, input) {
 
     const formControl = input.parentElement;
