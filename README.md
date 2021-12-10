@@ -12,7 +12,9 @@ you were born.
 ---
 **Version1.0.0**
 
-![GitHub](https://img.shields.io/github/license/nicholas/https://github.com/barkotenicholas/birthday.git)
+---
+![APM](https://img.shields.io/apm/l/MIT)
+![GitHub](https://img.shields.io/github/license/nicholas/https://github.com/barkotenicholas/birthday.git?style=flat-square)
 ---
 ## Authors
 - Nicholas Barkote <nicholas.kebut@student.moringaschool.com>
@@ -37,6 +39,10 @@ you were born.
 - CSS
 - js
   
+
+## Contact Information
+
+[email](barkotenicholas@gmail.com)
 
  ## Live Link
 
