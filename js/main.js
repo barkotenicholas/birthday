@@ -1,12 +1,27 @@
 const date = document.getElementById('birthday')
 const male = document.getElementById('male')
 const female = document.getElementById('female')
+const form = document.getElementById('forms')
+
 
 // validate function
+form.addEventListener('submit',(e)=>{
 
+    e.preventDefault()
+    validate();
+})
 function validate(){
-    let defaultdate = date.defaultdate;
+
+    let defaultdate = date.defaultValue;
     let currentdate = date.value;
+
+    if(defaultdate === currentdate){
+        setError("Input valid email." ,date)
+    }
+    else{
+        success("Valid email.",date)
+    }
+
 
     if(!male.checked && !female.checked){
         setGenderError("Please check one gender",male)
@@ -14,13 +29,7 @@ function validate(){
         setGenderSuccess("Success ", male)
     }
 
-    if(defaultdate == currentdate){
-        setError("Input valid email." ,date)
-    }
-    else{
-        success("Valid email.",date)
-    }
-
+  
     
 }
 
@@ -51,6 +60,7 @@ function setGenderError(message,input){
 
 }
 function setGenderSuccess(message,input){
+
     const formControl =input.parentElement;
     const small = formControl.querySelector('small.errormsg');
     const ierror = formControl.querySelector('i.successgender');

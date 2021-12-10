@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan Name</title>
+    <title>Akan Name generator</title>
 
     <!-- custom css-->
     <link rel="stylesheet" href="./css/style.css">
@@ -32,7 +32,7 @@
         </p>
     </div>
     <div class="generator">
-        <form action="" method="post">
+        <form id="forms">
 
             <label> Choose birthday:</label>
             <input type="date" name="" id="birthday">
@@ -47,9 +47,9 @@
             <input type="radio" name="gender" value="female" id="female"><br>
             <i class="fa fa-check-circle successgender invisible "></i>
             <i class="fa fa-exclamation-circle failuregender invisible "></i><br>
-            <span class="errormsg"></span>
+            <small class="errormsg"></small>
             <br>
-            <input type="submit" value="Submit" onclick="validate()">
+            <input type="submit" value="Submit" >
 
         </form>
     </div>
