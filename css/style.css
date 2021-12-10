@@ -45,9 +45,15 @@ form>label{
     display: block;
 }
 
-i.success{
+i.successgender,i.successemail{
     color: yellowgreen;
 }
-i.failure{
+i.failuregender,i.failureemail{
     color: red;
+}
+.invisible{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
 }

@@ -36,20 +36,20 @@
 
             <label> Choose birthday:</label>
             <input type="date" name="" id="birthday">
-            <i class="fa fa-check-circle success"></i>
-            <i class="fa fa-exclamation-circle failure"></i><br>
-            <span class="errormsg"></span>
+            <i class="fa fa-check-circle successemail invisible "></i>
+            <i class="fa fa-exclamation-circle failureemail invisible "></i><br>
+            <small class="errormsg"></small>
             <label> Choose Gender:</label>
          
             <span>Male: &nbsp; &nbsp; &nbsp;</span>
-            <input type="radio" name="gender" value="male"><br>
+            <input type="radio" name="gender" value="male" id="male"><br>
             <span>Female: &nbsp;</span>
-            <input type="radio" name="gender" value="female"><br>
-            <i class="fa fa-check-circle success"></i>
-            <i class="fa fa-exclamation-circle failure"></i><br>
+            <input type="radio" name="gender" value="female" id="female"><br>
+            <i class="fa fa-check-circle successgender invisible "></i>
+            <i class="fa fa-exclamation-circle failuregender invisible "></i><br>
             <span class="errormsg"></span>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="validate()">
 
         </form>
     </div>
