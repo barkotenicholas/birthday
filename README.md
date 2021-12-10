@@ -35,6 +35,7 @@ you were born.
 * Open index.html with a google chrome
  
 # Tech Stack
+
 - HTML
 - CSS
 - js
@@ -42,7 +43,7 @@ you were born.
 
 ## Contact Information
 
-[email](barkotenicholas@gmail.com)
+<a href="mailto:barkotenicholas@gmail.com">barkotenicholas@gmail.com</a>
 
  ## Live Link
 
