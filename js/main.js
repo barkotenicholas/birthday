@@ -8,26 +8,37 @@ const form = document.getElementById('forms')
 form.addEventListener('submit',(e)=>{
 
     e.preventDefault()
-    validate();
+    if(validate()){
+        
+    }
 })
 function validate(){
 
     let defaultdate = date.defaultValue;
     let currentdate = date.value;
 
-    if(defaultdate === currentdate){
+
+
+
+    if((defaultdate === currentdate) && (!male.checked && !female.checked)){
         setError("Input valid email." ,date)
+        setGenderError("Please check one gender",male)
+
+    }
+    else if(defaultdate === currentdate){
+        setError("Input valid email." ,date)
+
+    }else if(!male.checked && !female.checked){
+        setGenderError("Please check one gender",male)
     }
     else{
         success("Valid email.",date)
-    }
-
-
-    if(!male.checked && !female.checked){
-        setGenderError("Please check one gender",male)
-    }else{
         setGenderSuccess("Success ", male)
+
+        return true;
     }
+
+
 
   
     
