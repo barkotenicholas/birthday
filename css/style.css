@@ -13,9 +13,11 @@ body {
     align-items: center;
     margin-top: 3rem;
 }
-.header-title h1{
+
+.header-title h1 {
     text-decoration: underline;
 }
+
 .header-title p {
     width: 60%;
     text-align: center;
